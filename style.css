@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+}
+
+main {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    background: url(/2122586.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#uploadForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn {
+    margin-top: 10px;
+}
+
+input[type='submit'] {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(111, 0, 158);
+    border: none;
+    color: whitesmoke;
+    border-radius: 0.15cm;
+}
+
+input[type='submit']:hover {
+    background-color: rgb(195, 54, 255);
+    color: black;
+}
+
+input[type='file'] {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 7px dashed rgb(104, 7, 117);
+    color: rgb(0, 0, 0);
+    border-radius: 0.15cm;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 100px;
+    font-weight: 800;
+    font-family: "Danfo", serif;
+    letter-spacing: 10px;
+    color: rgb(77, 1, 92);
+    text-shadow: -1px 0 black, 0 7px black, 3px 0 black, 0 1px black;
+}
+
+p {
+    margin-top: 30px;
+    background-color: rgb(0, 132, 255);
+    padding: 10px;
+    border-radius: 0.2cm;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    h3 {
+        padding-top: 70px;
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    input[type='file'] {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border: 7px dashed rgb(104, 7, 117);
+        color: rgb(0, 0, 0);
+        border-radius: 0.15cm;
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
